@@ -1,0 +1,38 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "scheduler.h": "c",
+            "semphr.h": "c",
+            "main.h": "c",
+            "freertos.h": "c",
+            "esp8266.h": "c",
+            "work.h": "c",
+            "photosensor.h": "c",
+            "stepmotor.h": "c",
+            "peripheral.h": "c",
+            "oled.h": "c",
+            "dht11.h": "c",
+            "vl53l0x.h": "c",
+            "event_groups.h": "c",
+            "vl53l0x_gen.h": "c",
+            "buzzer.h": "c",
+            "tim.h": "c",
+            "driver_timer.h": "c",
+            "driver_passive_buzzer.h": "c",
+            "stdarg.h": "c",
+            "task.h": "c",
+            "stm32f1xx_hal.h": "c",
+            "queue.h": "c",
+            "usart.h": "c",
+            "errno.h": "c",
+            "core_json.h": "c"
+        },
+        "cortex-debug.variableUseNaturalFormat": true
+    },
+    "extensions": {}
+}

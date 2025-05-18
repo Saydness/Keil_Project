@@ -1,0 +1,62 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.example.SmartHome'
+    compileSdk 34
+
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint:deprecation"
+    }
+    defaultConfig {
+        applicationId "com.example.mqtt_lasttime"
+        minSdk 29
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        viewBinding{
+            enabled true
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+apply plugin: 'kotlin-android' // 即使是 Java 项目，这一行也要加上
+
+
+dependencies {
+//    testImplementation 'junit:junit:4.13.2'
+
+    // Espresso测试库
+//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+    //MQTT
+    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
+    implementation 'io.github.mayzs:paho.mqtt.android:1.1.7'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'com.github.anastr:speedviewlib:1.6.1'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}

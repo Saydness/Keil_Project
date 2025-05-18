@@ -1,0 +1,15 @@
+project\queue.o: ..\FreeRTOS\Source\queue.c
+project\queue.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\stdlib.h
+project\queue.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\string.h
+project\queue.o: ../FreeRTOS/Source/Include/FreeRTOS.h
+project\queue.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\stddef.h
+project\queue.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\stdint.h
+project\queue.o: ../FreeRTOS/Source/Include/FreeRTOSConfig.h
+project\queue.o: ../FreeRTOS/Source/Include/projdefs.h
+project\queue.o: ../FreeRTOS/Source/Include/portable.h
+project\queue.o: ../FreeRTOS/Source/Include/deprecated_definitions.h
+project\queue.o: ../FreeRTOS/Portable/RVDS/ARM_CM3/portmacro.h
+project\queue.o: ../FreeRTOS/Source/Include/mpu_wrappers.h
+project\queue.o: ../FreeRTOS/Source/Include/task.h
+project\queue.o: ../FreeRTOS/Source/Include/list.h
+project\queue.o: ../FreeRTOS/Source/Include/queue.h

@@ -1,0 +1,15 @@
+project\event_groups.o: ..\FreeRTOS\Source\event_groups.c
+project\event_groups.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\stdlib.h
+project\event_groups.o: ../FreeRTOS/Source/Include/FreeRTOS.h
+project\event_groups.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\stddef.h
+project\event_groups.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\stdint.h
+project\event_groups.o: ../FreeRTOS/Source/Include/FreeRTOSConfig.h
+project\event_groups.o: ../FreeRTOS/Source/Include/projdefs.h
+project\event_groups.o: ../FreeRTOS/Source/Include/portable.h
+project\event_groups.o: ../FreeRTOS/Source/Include/deprecated_definitions.h
+project\event_groups.o: ../FreeRTOS/Portable/RVDS/ARM_CM3/portmacro.h
+project\event_groups.o: ../FreeRTOS/Source/Include/mpu_wrappers.h
+project\event_groups.o: ../FreeRTOS/Source/Include/task.h
+project\event_groups.o: ../FreeRTOS/Source/Include/list.h
+project\event_groups.o: ../FreeRTOS/Source/Include/timers.h
+project\event_groups.o: ../FreeRTOS/Source/Include/event_groups.h

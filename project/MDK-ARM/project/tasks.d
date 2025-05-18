@@ -1,0 +1,17 @@
+project\tasks.o: ..\FreeRTOS\Source\tasks.c
+project\tasks.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\stdlib.h
+project\tasks.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\string.h
+project\tasks.o: ../FreeRTOS/Source/Include/FreeRTOS.h
+project\tasks.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\stddef.h
+project\tasks.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\stdint.h
+project\tasks.o: ../FreeRTOS/Source/Include/FreeRTOSConfig.h
+project\tasks.o: ../FreeRTOS/Source/Include/projdefs.h
+project\tasks.o: ../FreeRTOS/Source/Include/portable.h
+project\tasks.o: ../FreeRTOS/Source/Include/deprecated_definitions.h
+project\tasks.o: ../FreeRTOS/Portable/RVDS/ARM_CM3/portmacro.h
+project\tasks.o: ../FreeRTOS/Source/Include/mpu_wrappers.h
+project\tasks.o: ../FreeRTOS/Source/Include/task.h
+project\tasks.o: ../FreeRTOS/Source/Include/list.h
+project\tasks.o: ../FreeRTOS/Source/Include/timers.h
+project\tasks.o: ../FreeRTOS/Source/Include/stack_macros.h
+project\tasks.o: D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin\..\include\stdio.h
