@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="shrine_pink_100">#F8BBD0</color>
+    <color name="shrine_pink_900">#C2185B</color>
+    <color name="shrine_red">#D50000</color>
+    <color name="blue">#4667C0</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#000</color>
+
+
+</resources>

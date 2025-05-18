@@ -1,0 +1,216 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zh s, 1, LIC=BUURY-IXEWB-BSEYX-HIYKE-C2LWM-C8L9Q
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\1111-Project\KeilProject\HAL\3-27-Smart Home System\project\MDK-ARM\project.uvprojx
+Project File Date:  04/16/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Embedded\Keil_MDK\Core\ARM\ARMCC\Bin'
+Build target 'project'
+compiling driver_timer.c...
+compiling Buzzer.c...
+compiling driver_passive_buzzer.c...
+User\driver_passive_buzzer.h(82): warning:  #1295-D: Deprecated declaration PlayMusic - give arg types
+  void PlayMusic();
+User\driver_passive_buzzer.c(661): warning:  #223-D: function "vTaskDelay" declared implicitly
+  		vTaskDelay(MusicSpeed/Music_Lone_Brave[i][2]);
+User\driver_passive_buzzer.c: 2 warnings, 0 errors
+compiling Scheduler.c...
+User\driver_passive_buzzer.h(82): warning:  #1295-D: Deprecated declaration PlayMusic - give arg types
+  void PlayMusic();
+User\Scheduler.c(101): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const char * const) "initTask", /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+User\Scheduler.c(102): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const 
+onfigSTACK_DEPTH_TYPE) 
+nitTaskStackDepth,
+User\Scheduler.c(103): warning:  #191-D: type qualifier is meaningless on cast type
+                              (void * const) 
+ULL,
+User\Scheduler.c(105): warning:  #191-D: type qualifier is meaningless on cast type
+                              (TaskHandle_t * const) &initTask_handle);
+User\Scheduler.c(121): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const char * const) "createTask", /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+User\Scheduler.c(122): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const 
+onfigSTACK_DEPTH_TYPE) 128,
+User\Scheduler.c(123): warning:  #191-D: type qualifier is meaningless on cast type
+                              (void * const) 
+ULL,
+User\Scheduler.c(125): warning:  #191-D: type qualifier is meaningless on cast type
+                              (TaskHandle_t * const) &createTask_handle);
+User\Scheduler.c(136): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const char * const) "DHT11_Work", /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+User\Scheduler.c(137): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const 
+onfigSTACK_DEPTH_TYPE) 
+ht11TaskStackDepth,
+User\Scheduler.c(138): warning:  #191-D: type qualifier is meaningless on cast type
+                              (void * const) 
+ULL,
+User\Scheduler.c(140): warning:  #191-D: type qualifier is meaningless on cast type
+                              (TaskHandle_t * const) &dht11Task_handle);
+User\Scheduler.c(144): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const char * const) "PlayMusic", /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+User\Scheduler.c(145): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const 
+onfigSTACK_DEPTH_TYPE) 
+layTaskStackDepth,
+User\Scheduler.c(146): warning:  #191-D: type qualifier is meaningless on cast type
+                              (void * const) 
+ULL,
+User\Scheduler.c(148): warning:  #191-D: type qualifier is meaningless on cast type
+                              (TaskHandle_t * const) &playTask_handle);
+User\Scheduler.c(152): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const char * const) "OLED_Work", /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+User\Scheduler.c(153): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const 
+onfigSTACK_DEPTH_TYPE) 
+LEDTaskStackDepth,
+User\Scheduler.c(154): warning:  #191-D: type qualifier is meaningless on cast type
+                              (void * const) 
+ULL,
+User\Scheduler.c(156): warning:  #191-D: type qualifier is meaningless on cast type
+                              (TaskHandle_t * const) &OLEDTask_handle);
+User\Scheduler.c(158): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const char * const) "TOF_Work", /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+User\Scheduler.c(159): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const 
+onfigSTACK_DEPTH_TYPE) 
+ofTaskStackDepth,
+User\Scheduler.c(160): warning:  #191-D: type qualifier is meaningless on cast type
+                              (void * const) 
+ULL,
+User\Scheduler.c(162): warning:  #191-D: type qualifier is meaningless on cast type
+                              (TaskHandle_t * const) &tofTask_handle);
+User\Scheduler.c(165): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const char * const) "SNR_Work", /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+User\Scheduler.c(166): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const 
+onfigSTACK_DEPTH_TYPE) 
+nrTaskStackDepth,
+User\Scheduler.c(167): warning:  #191-D: type qualifier is meaningless on cast type
+                              (void * const) 
+ULL,
+User\Scheduler.c(169): warning:  #191-D: type qualifier is meaningless on cast type
+                              (TaskHandle_t * const) &snrTask_handle);
+User\Scheduler.c(172): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const char * const) "PhotoSensor_Work", /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+User\Scheduler.c(173): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const 
+onfigSTACK_DEPTH_TYPE) 
+hotosensorTaskStackDepth,
+User\Scheduler.c(174): warning:  #191-D: type qualifier is meaningless on cast type
+                              (void * const) 
+ULL,
+User\Scheduler.c(176): warning:  #191-D: type qualifier is meaningless on cast type
+                              (TaskHandle_t * const) &photosensorTask_handle);
+User\Scheduler.c(179): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const char * const) "Esp8266_Rec_Work", /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+User\Scheduler.c(180): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const 
+onfigSTACK_DEPTH_TYPE) 
+sp8266TaskStackDepth,
+User\Scheduler.c(181): warning:  #191-D: type qualifier is meaningless on cast type
+                              (void * const) 
+ULL,
+User\Scheduler.c(183): warning:  #191-D: type qualifier is meaningless on cast type
+                              (TaskHandle_t * const) &esp8266Task_handle);
+User\Scheduler.c(186): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const char * const) "printTask", /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+User\Scheduler.c(187): warning:  #191-D: type qualifier is meaningless on cast type
+                              (const 
+onfigSTACK_DEPTH_TYPE)
+rintTaskStackDepth,
+User\Scheduler.c(188): warning:  #191-D: type qualifier is meaningless on cast type
+                              (void * const) 
+ULL,
+User\Scheduler.c(190): warning:  #191-D: type qualifier is meaningless on cast type
+                              (TaskHandle_t * const) &printTask_handle);
+User\Scheduler.c(222): warning:  #1-D: last line of file ends without a newline
+  }
+User\Scheduler.c: 42 warnings, 0 errors
+compiling Work.c...
+linking...
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching vl53l0x_api.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching esp8266.o(.bss).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching esp8266.o(.bss).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching vl53l0x.o(.bss).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching scheduler.o(.bss).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching tim.o(.bss).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.bss).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching tasks.o(.bss).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_timebase_tim.o(.bss).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching tasks.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching vl53l0x_gen.o(.bss).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching scheduler.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching vl53l0x.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching adc.o(.bss).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching work.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching heap_4.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching work.o(.bss).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching vl53l0x_api_calibration.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching work.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f1xx.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching port.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching errno.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching stdout.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching stepmotor.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching vl53l0x_gen.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching work.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching work.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching esp8266.o(.data).
+project\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching vl53l0x.o(.data).
+project\project.axf: Error: L6407E: Sections of aggregate size 0xe00 bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 31 error messages.
+"project\project.axf" - 31 Error(s), 44 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_project
+  D:\Embedded\Keil_MDK\Pack\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\Embedded\Keil_MDK\Pack\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
